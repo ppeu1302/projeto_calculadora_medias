@@ -12,12 +12,12 @@ let linhas = '';
 form.addEventListener('submit', function(e) {
     e.preventDefault();
 
-    adicinaLinha()
+    adicionaLinha()
     atualizaTabela()
     atualizaMediaFinal()
 });
 
-function adicinaLinha() {
+function adicionaLinha() {
     const inputNomeAtividade = document.getElementById('nome-atividade')
     const inputNotaAtividade = document.getElementById('nota-atividade')
 
